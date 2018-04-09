@@ -4,8 +4,10 @@
 
 #second {
     color: red;
+    list-style-type: none;
 }
 
 #third {
     color: blue;
+    list-style-type: none; 
 }

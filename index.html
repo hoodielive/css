@@ -27,14 +27,16 @@
             var second = document.getElementById("second"); 
             addMessage(second, "Event: mousemove in red");
         });
+
+        document.body.addEventListener("click", function() {
+            var second = document.getElementById("second"); 
+            addMessage(second, "Event: click in blue"); 
+        }); 
     </script>
 
     <ul id="third"></ul>
     <script>
-        document.body.addEventListener("click", function() {
-            var third = document.getElementById("third"); 
-            addMessage(third, "Event: click in blue"); 
-        }); 
+        
     </script>
 </body>
 </html>
