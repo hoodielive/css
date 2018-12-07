@@ -1,4 +1,4 @@
 #+TITLE: CSS Mastery
 #+AUTHOR: Lucid Developer
 
-* Understanding Grids and Layouts
+** Understanding Grids and Layouts
