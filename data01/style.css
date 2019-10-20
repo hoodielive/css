@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	font-weight: 400; 
+	font-size: 16px;
+	line-height: 1.7;
+ 	color: #777;
+}
+
+.header {
+	height: 95vh;
+	background-image: linear-gradient(
+		to right bottom, 
+		rgba(50, 115, 220, 0.3), 
+		rgba(40, 180, 131, 0.8)
+	), url(solitude.jpg);
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%)
+}
+
