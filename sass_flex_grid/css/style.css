@@ -30,5 +30,16 @@ body {
     ), url(../img/hero.jpg);
     background-size: cover; /* fit size of view port */    
     background-position: top;
-    clip-path: polygon(0 0, 100% 0, 100% 200px, 0 100%); /** The fuk??  */ 
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); /** The fuk??  */ 
+}
+
+.logo-box {
+    position: absolute;
+    top: 40px; 
+    left: 40px,
+}
+
+.logo {
+    height: 35px; 
 }
