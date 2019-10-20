@@ -23,7 +23,11 @@ body {
 
 .header {
     height: 95vh; /* 95% of veiw */
-    background-image: linear-gradient(to right,#7ed56f, #55c57a), url(../img/hero.jpg);
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(126, 213, 111, 0.8), 
+        rgba(40, 180, 131, 0.8), 
+    ), url(../img/hero.jpg);
     background-size: cover; /* fit size of view port */    
     background-position: top;
 }
