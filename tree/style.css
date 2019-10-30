@@ -1,0 +1,36 @@
+/* *,
+*::after, 
+*::before {
+    margin: 0; 
+    padding: 0; 
+} */
+
+/* type selectors or element selectors */
+
+
+header {
+    background: orange;
+}
+
+body {
+    color: #887787;
+    margin: 0;
+}
+
+h1 {
+    font-size: 90px;
+    color: white;
+}
+
+h2 {
+    font-size: 53px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #48525c;
+}
+
+#primary-content {
+    border: 3px solid red; 
+}
