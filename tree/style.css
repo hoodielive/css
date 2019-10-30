@@ -1,14 +1,5 @@
-/* *,
-*::after, 
-*::before {
-    margin: 0; 
-    padding: 0; 
-} */
 
-/* type selectors or element selectors */
-
-
-header {
+.main-header {
     background: orange;
 }
 
@@ -31,8 +22,12 @@ h3 {
     color: #48525c;
 }
 
-#primary-content {
-    border: 3px solid red; 
+.primary-content {
+    text-align: center;
+}
+
+.t-border {
+    border-top: 2px solid lightgrey;
 }
 
 #main-footer {
