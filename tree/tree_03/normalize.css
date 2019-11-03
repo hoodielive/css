@@ -405,10 +405,17 @@ table {
     border-spacing: 0;
 }
 
-/* Lists - Remove default list styles, margins and paddings  */
-ol, 
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+
+/**
+ * Remove default list styles, margins and padding.
+ */
+
+ ol, 
+ ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
