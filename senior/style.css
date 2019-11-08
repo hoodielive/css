@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+    width: 30%;
+    border: 20px dotted red;
+    padding: 40px; 
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: blue;
+}
