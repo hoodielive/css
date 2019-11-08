@@ -12,14 +12,21 @@ header {
 }
 
 .box {
-    padding-top: 40px;
     width: 200px;
-    height: 200px;
+    height: 600px;
     background-color: #299;
     position: absolute;
 
     -webkit-animation: slide 5s linear 0s 3;
             animation: slide 5s linear 0s 3;
+}
+
+p {
+    border: 2px solid red;
+    width: 200px;
+    padding: 50px;
+    position: relative;
+
 }
 
 @-webkit-keyframes slide {
