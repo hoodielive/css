@@ -1,19 +1,43 @@
 * {
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-
-h1 {
-    width: 30%;
-    border: 20px dotted red;
-    padding: 40px; 
-    margin: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: purple;
+header {
+    background-image: linear-gradient(lightblue, transparent 20%),
+                      linear-gradient(0deg, white,transparent 50%),
+                      url("empathy.jpg");
+    background-size: cover;
+    height: 800px;
 }
 
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2em;
-    color: blue;
+.box {
+    padding-top: 40px;
+    width: 200px;
+    height: 200px;
+    background-color: #299;
+    position: absolute;
+
+    -webkit-animation: slide 5s linear 0s 3;
+            animation: slide 5s linear 0s 3;
+}
+
+@-webkit-keyframes slide {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 600px;
+    }
+}
+
+@keyframes slide {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 600px;
+    }
 }
