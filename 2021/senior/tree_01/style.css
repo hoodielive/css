@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(lightblue, transparent 20%),
+                      linear-gradient(0deg, white,transparent 50%),
+                      url("empathy.jpg");
+    background-size: cover;
+    height: 800px;
+}
+
+.box {
+    width: 200px;
+    height: 600px;
+    background-color: #299;
+    position: absolute;
+
+    -webkit-animation: slide 5s linear 0s 3;
+            animation: slide 5s linear 0s 3;
+}
+
+p {
+    border: 2px solid red;
+    width: 200px;
+    padding: 50px;
+    position: relative;
+
+}
+
+@-webkit-keyframes slide {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 600px;
+    }
+}
+
+@keyframes slide {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 600px;
+    }
+}
