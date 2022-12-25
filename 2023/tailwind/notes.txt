@@ -1,0 +1,9 @@
+Notes:
+
+1. Add HTML
+2. Layout Things
+3. Spacing
+4. Box properties (border, background, shadow)
+5. Typography (font size, font family)
+6. Fun element (beginnertailwind.com) - small things that makes your design pop!
+7. Responsive
