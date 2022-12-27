@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ogun</title>
+    <!-- Tailwind CSS -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Emphasis is better as De-emphasis -->
+    <div class="p-20">
+        <h2 class="mb-4">Spacing Section</h2>
+        <p class="mb-4">This is where I show lola something about margin and padding.</p>
+        <button class="mr-3 py-2 px-4 bg-green-800 text-green-200 rounded-full">Learn More</button>
+        <button class="py-2 px-8 bg-blue-800 text-blue-200 rounded-lg">Sign Up</button>
+    </div>
+
+    <div class="p-20 bg-blue-400">
+        <h2 class="mb-4">
+            <div class="decoration-slate-300 text-purple-600 font-bold p-10 bg-purple-400 rounded-lg border-purple-500 border-4 shadow-2xl flex items-center justify-center hover:bg-white transition duration-700">I am a box</div>
+        </h2>
+    </div>
+
+    <div class="py-20 px-10 bg-yellow-300">
+        <button class="p-4 bg-green-400 rounded w-8">Click me</button>
+        <button class="p-4 bg-green-400 rounded w-12">Click me</button>
+        <button class="p-4 bg-green-400 rounded w-20">Click me</button>
+        <button class="p-4 bg-green-400 rounded w-32">Click me</button>
+        <button class="p-4 bg-green-400 rounded w-48 h-48">Click me</button>
+    </div>
+
+    <div class="p-20 text-gray-800 leading-relaxed">
+        <h2 class="mb-1 text-4xl text-gray-700 font-bold tracking-wide">CSS with Berry Mae Lolipop!</h2>
+        <h3 class="mb-6 mt-2 text-2xl text-gray-500">It is a Lot of Fun!</h3>
+        <p class="mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae architecto maiores necessitatibus nemo facere! Ducimus dolores dolore quaerat voluptates veritatis earum laboriosam dolorum. Voluptatum eligendi temporibus eveniet a, odio optio!</p>
+        <p class="mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae architecto maiores necessitatibus nemo facere! Ducimus dolores dolore quaerat voluptates veritatis earum laboriosam dolorum. Voluptatum eligendi temporibus eveniet a, odio optio!</p>
+        <p class="mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae architecto maiores necessitatibus nemo facere! Ducimus dolores dolore quaerat voluptates veritatis earum laboriosam dolorum. Voluptatum eligendi temporibus eveniet a, odio optio!</p>
+    </div>  
+
+    <div class="p-20 bg-green-200 text-green-800 grid grid-col-3 gap-2">
+        <div class="bg-green-100 p-5">card 1</div>
+        <div class="bg-green-100 p-5">card 2</div>
+        <div class="bg-green-100 p-5">card 3</div>
+        <div class="bg-green-100 p-5">card 4</div>
+        <div class="bg-green-100 p-5">card 5</div>
+        <div class="bg-green-100 p-5">card 6</div>
+    </div>
+    <div class="p-20 bg-green-200 text-yellow-800 grid grid-rows-3 gap-3">card 1</div>
+    <div>card 2</div>
+    <div>card 3</div>
+    <div>card 4</div>
+    <div>card 5</div>
+    <div>card 6</div>
+    <div>card 7</div>
+</body>
+</html>

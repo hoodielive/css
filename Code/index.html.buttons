@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <!-- Tailwind CSS -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- buttons -->
+    <div class="p-32 bg-blue-800 flex justify-center space-x-6">
+        <a href="#" class="bg-red-600 hover:bg-red-500 py-3 px-8 rounded text-red-100 transition duration-300">Learn More</a>
+        <a href="#" class="bg-yellow-600 hover:bg-yellow-500 py-3 px-12 rounded-full text-yellow-100 transition duration-500">Login</a>
+        <a href="#" class="bg-green-600 hover:bg-green-500 py-3 px-8 rounded-lg text-green-100  border-b-2 border-green-800 transition duration-500">Sign Up</a>
+    </div>
+    <!-- outline and shadowed -->
+    <div class="p-32 bg-green-200 flex justify-center text-xl space-x-8">
+        <a href="#" class="border border-yellow-800 rounded py-4 px-8 text-yellow-800 hover:text-yellow-600 transition duration-500 font-bold">Do it</a>
+        <a href="#" class="bg-yellow-100 rounded-full py-3 px-8 shadow-md hover:shadow-2xl transiton duration-500 hover:bg-white text-green-800 font-bold">Dont do it</a>
+    </div>
+    <!-- grouped and button w/icon -->
+    <div class="p-32 bg-purple-800 flex justify-center space-x-8">
+        <div class="flex text-center">
+        <a href="#" class="bg-purple-600 hover:bg-purple-700 text-purple-200 py-l w-16 rounded-l transition duration-300 flex items-center justify-center">👈</a>
+        <a href="#"class="bg-purple-600  hover:bg-purple-700 text-purple-200 py-2 w-16 transition duration-300 flex items-center justify-center">1</a>
+        <a href="#" class="bg-purple-600 hover:bg-purple-700 text-purple-200 py-2 w-16 transition duration-300 flex items-center justify-center">2</a>
+        <a href="#" class="bg-purple-600 hover:bg-purple-700 text-purple-200 py-2 px-4 rounded-r transition duration-300 flex items-center justify-center">👉</a>
+    </div>
+    <a href="#" class="bg-indigo-400 py-3 pl-6 rounded-full flex items-center">
+    <span class="mr-6">Click This</span><span class="inline-block bg-indigo-500 w-16 h-16 rounded-full flex items-center justify-center">🤜</span></a>
+</div>
+
+</body>
+</html>
