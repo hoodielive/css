@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>EgunAwo</title>
+      <!-- <link rel="stylesheet" href="style.css"> -->
+      <!-- Tailwind CSS -->
+      <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <!-- <img src="header.jpg" width="1400" height="600"> -->
+  </div>
+  <div class="card">
+    <img src="ogun.png" width="230" height="230">
+    <div>
+        <h2>Ogun Ferai</h2>
+        <p>Come Witness the Nganga Speaking</p>
+    </div>
+  </div>  
+</body>
+</html>
