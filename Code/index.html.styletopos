@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Styling</title>
+    <!-- Tailwind CSS -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-purple-700 py-24">
+        <div class="container mx-auto px-6 lg:px-0">
+
+   <h2 class="mb-10 text-6xl font-bold text-purple-100">Writing CSS is tough stuff!</h2> 
+    <div class="flex space-x-16">
+        <!-- left column -->
+        <div class="w-2/3 bg-white p-16 rounded shadow-2xl text-gray-800 text-lg space-y-8">
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, molestias <code class="inline-block px-1 rounded bg-gray-200 text-red-700 text-xs font-mono">!important</code> libero voluptatem laborum fuga repellat incidunt doloribus. Accusantium rerum voluptas <strong class="font-bold text-green-500">ipsum vel tenetur ipsa saepe ea!</strong> ipsum incidunt quos provident explicabo officia laborum, reprehenderit suscipit nisi?</p>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus iste dicta eius nesciunt culpa itaque sint, sapiente minima? Maxime rerum minima dolorem quasi voluptatibus obcaecati vel tenetur ipsa saepe ea!</p> 
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus iste dicta eius nesciunt culpa itaque sint, sapiente minima? Maxime rerum minima dolorem quasi voluptatibus obcaecati vel tenetur ipsa saepe ea!</p> 
+
+        </div>
+        <!-- right column -->
+   <div class="flex-grow space-y-4 text-lg-italic flext text-right">
+            <div class="p-10 rounded-lg bg-purple-800 text-purple-200">What Classes Should I use?</div>
+            <div class="p-10 rounded-lg bg-purple-800 text-purple-200">How do I make things look good?</div>
+            <div class="p-10 rounded-lg bg-purple-800 text-purple-200">My design looks basic?</div>
+            <div class="p-10 rounded-lg bg-purple-800 text-purple-200">How do I do responsive?</div>
+            <div class="p-10 rounded-lg bg-purple-800 text-purple-200">My Topography looks bad?</div>
+        </div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
